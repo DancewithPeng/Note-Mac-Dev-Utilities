@@ -16,3 +16,14 @@ sshfs [user@]hostname:[directory] mountpoint
 ```
 umount mountpoint
 ```
+
+## brew - Mac的软件包管理工具
+方便安装各种Mac上的开发工具
+安装
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+使用
+```
+brew install <software>
+```
